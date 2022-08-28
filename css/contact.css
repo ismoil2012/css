@@ -1,0 +1,44 @@
+.con {
+  padding: 100px 20px;
+}
+textarea,
+input {
+  width: 100%;
+  padding: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #f0e9ff;
+  border-radius: 5px;
+  padding-left: 18px;
+  font-size: 13px;
+  background: transparent;
+  color: #495057;
+  box-sizing: border-box;
+}
+.textarea:focus,
+input:focus {
+  outline: 0;
+}
+.h-r {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+.con-f-n {
+  padding-right: 15px;
+}
+.con-e {
+  padding-left: 15px;
+}
+.c-s {
+  margin-top: 30px;
+}
+@media only screen and (max-width: 991px) {
+  .h-r {
+    width: 100%;
+  }
+  .con-f-n,
+  .con-e {
+    padding: 0;
+  }
+}
