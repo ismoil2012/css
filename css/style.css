@@ -66,8 +66,10 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.m-s_img {
+.m-s_img img{
   text-align: right;
+  height: 700px;
+  border-radius: 200px;
 }
 .m-s_w {
   font-size: 1rem;
